@@ -25,3 +25,4 @@ if __name__ == '__main__':
         app.run(debug=True, use_reloader=False)
     finally:
         serial_com.close()  # Asegúrate de cerrar la conexión serial al terminar
+
